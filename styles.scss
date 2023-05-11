@@ -1,0 +1,19 @@
+// para compilar sass abrimos una terminal en la carpeta de trabajo y escribimos el siguiente codigo: 
+   sass --watch styles.scss styles.css//
+
+// variables
+$color-principal: #ccc;
+$color-letra: green;
+
+body{
+    background: $color-letra;
+
+}
+
+h1{
+    color: $color-letra
+}
+
+p{
+    color: $color-principal
+}
